@@ -37,3 +37,14 @@ nav > ul > li > a {
   cursor: pointer;
   padding: 1em 0;
 }
+
+.innerWrapper {
+  width: auto;
+  border: solid 20px rgba(255,255,255,.2);
+}
+.title-container {
+  text-align: center;
+}
+.logo-img {
+  max-width: 40%;
+}
