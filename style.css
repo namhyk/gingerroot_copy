@@ -5,12 +5,31 @@ body {
   background-color: #f7da97;
   color: #FFFFFF;
 }
+p{
+  margin: 0;
+}
 header {
   font-family: "cooper-black-std", serif;
   font-weight: 400;
+  font-size: 0.8125rem;
   font-style: normal;
 }
 
-nav ul {
+nav > ul {
   list-style: none;
+  padding: 0;
+}
+nav > ul > li{
+  padding: 0.5rem 0;
+}
+#nav-el{
+  text-align: center;
+  display: none;
+}
+
+
+#mobile-nav-label {
+  text-align: center;
+  cursor: pointer;
+  padding: 1em 0;
 }
