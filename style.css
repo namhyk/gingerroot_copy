@@ -41,10 +41,21 @@ nav > ul > li > a {
 .innerWrapper {
   width: auto;
   border: solid 20px rgba(255,255,255,.2);
+  background-color: #bea774;
 }
 .title-container {
   text-align: center;
+  padding: 1.56em;
 }
 .logo-img {
-  max-width: 40%;
+  width: 7em;
+}
+#content {
+  padding: 1.56em;
+}
+.thumbnail-container {
+  padding: 1.06em 0.94em;
+}
+.thumbnail-img {
+  width: 100%;
 }
