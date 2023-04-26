@@ -92,3 +92,26 @@ nav > ul > li > a {
 .video-description > p {
   padding-bottom: 0.8125rem;
 }
+
+.streaming-btn-container {
+  text-align: center;
+  cursor: pointer;
+  margin: 17px 0;
+  padding: 17px 0;
+}
+.streaming-btn {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  padding: 21px 34px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.streaming-btn:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.2s;
+  transition: color 0.2s;
+}
