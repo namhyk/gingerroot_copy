@@ -95,7 +95,6 @@ nav > ul > li > a {
 
 .streaming-btn-container {
   text-align: center;
-  cursor: pointer;
   margin: 17px 0;
   padding: 17px 0;
 }
@@ -107,6 +106,7 @@ nav > ul > li > a {
   padding: 21px 34px;
   border: 2px solid white;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .streaming-btn:hover {
@@ -114,4 +114,19 @@ nav > ul > li > a {
   color: black;
   transition: background-color 0.2s;
   transition: color 0.2s;
+}
+
+.separator-container {
+  padding: 17px 0;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 0;
+}
+
+.icon-container > svg {
+  width: 30px;
 }
